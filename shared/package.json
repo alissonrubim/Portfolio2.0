@@ -1,0 +1,13 @@
+{
+  "name": "portfolio-shared",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {},
+  "author": "alisson.rubim",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.45.0",
+    "aws-sdk": "^2.1036.0"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM",
+    ],
+    "declaration": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": false,
+    "noFallthroughCasesInSwitch": false,
+    "inlineSourceMap": true,
+    "inlineSources": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "Node",
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules",
+    "cdk.out",
+    "debug",
+    "debug.js",
+    "deploy.js",
+    "jest.config.js",
+    "local"
+  ],
+  "ts-node": {
+    "files": true
+  }
+}

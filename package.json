@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "deploy": "node deploy.js"
+  },
+  "author": "alisson.rubim",
+  "license": "ISC"
+}
